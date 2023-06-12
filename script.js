@@ -8,7 +8,7 @@ function checkProtocol() {
     url = "https://" + url;
   }
 
-  window.location.open(url, "_blank");
+  window.open(url, "_blank");
 }
 
 btnOne.addEventListener("click", checkProtocol);
